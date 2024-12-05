@@ -26,6 +26,19 @@ Programs accept input to achieve their intended functionality. **Describe at lea
 - Write your responses to this question only on the designated pages in the separate Written Response booklet.
 - If there are multiple parts to this question, write the part letter with your response.
 
+```
+function displayToDoList(array) {
+  array.forEach((inputs) => {
+    DOMSelectors.toDoList.insertAdjacentHTML(
+      "beforeend",
+      `<div class="card"><div class = "to-do-card">${inputs}</div>
+    <button type ="submit" class="remove-button" id="remove-reminder"> Remove </button>
+    </div>`
+    );
+  });
+
+This is a text input that the user puts into a to-do list. The function will display the inputed on to a generated card.
+```
 ---
 
 ### Question 2
@@ -34,10 +47,17 @@ Refer to your Personalized Project Reference when answering this question.
 #### Part (a):
 Consider the first iteration statement included in the Procedure section of your Personalized Project Reference. **Describe what is being accomplished by the code in the body of the iteration statement.**
 
+```
+The iteration increases the number of assignments by one when text is inputed and entered into the to-do list function.
+```
+
 #### Part (b):
 Consider the procedure identified in part (i) of the Procedure section of your Personalized Project Reference.
 - Write two calls to your procedure that each cause a different code segment in the procedure to execute.
 - Describe the expected behavior of each call. If it is not possible for two calls to your procedure to cause different code segments to execute, explain why this is the case for your procedure.
+
+```
+```
 
 #### Part (c):
 Suppose another programmer provides you with a procedure called `checkValidity(value)` that:
@@ -48,6 +68,8 @@ Using the list identified in the List section of your Personalized Project Refer
 
 - Write your responses to this question only on the designated pages in the separate Written Response booklet.
 - If there are multiple parts to this question, write the part letter with your response.
+```
+```
 
 ---
 
